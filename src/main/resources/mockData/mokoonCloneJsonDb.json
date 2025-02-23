@@ -1,0 +1,47 @@
+{
+    "dbUrl": "mokoon_clone_devDB",
+    "apiDetails": {
+        "GET_/user/details/testapi": {
+            "apiType": "GET",
+            "apiUrl": "/user/details/testapi",
+            "statusCode": 200,
+            "responseBody": {
+                "fName": "Ritu Raj",
+                "lName": "Verma",
+                "address": {
+                    "city": "Gurugram",
+                    "pinCode": 281272,
+                    "location": "guli number4"
+                }
+            }
+        },
+        "POST_/save/user/details/testapi": {
+            "apiType": "POST",
+            "apiUrl": "/save/user/details/testapi",
+            "statusCode": 201,
+            "responseBody": {
+                "fName": "Syed",
+                "lName": "Aasim",
+                "address": {
+                    "city": "Gurugram",
+                    "pinCode": 281272,
+                    "location": "guli number4"
+                }
+            }
+        },
+        "DELETE_/user/details/testapi": {
+            "apiType": "DELETE",
+            "apiUrl": "/user/details/testapi",
+            "statusCode": 201,
+            "responseBody": {
+                "fName": "Vinay",
+                "lName": "Kumar",
+                "address": {
+                    "city": "Gurugram",
+                    "pinCode": 281272,
+                    "location": "guli number4"
+                }
+            }
+        }
+    }
+}
