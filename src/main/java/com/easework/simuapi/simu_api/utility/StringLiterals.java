@@ -25,7 +25,6 @@ public  class StringLiterals {
         }
         return s;
     }
-    // public static List<String> notAllowedURI = List.of("css_1rLF2DrdC9", "js_1rLF2DrdC9", "thirdparty_1rLF2DrdC9", "images_1rLF2DrdC9");
 
 
     // public static final Map<Integer, HttpStatus> HTTP_STATUS_CODE_MAP = Arrays.stream(HttpStatus.values())

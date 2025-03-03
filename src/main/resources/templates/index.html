@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SIMU API</title>
-<link rel="stylesheet" th:href="@{/1rLF2DrdC9/thirdparty_1rLF2DrdC9/bootstrap/css/bootstrap.min.css}" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIMU API</title>
+    <link rel="stylesheet" th:href="@{/1rLF2DrdC9/thirdparty_1rLF2DrdC9/bootstrap/css/bootstrap.min.css}"
+        crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/1rLF2DrdC9/css_1rLF2DrdC9/style.css}" type="text/css">
 </head>
+
 <body>
     <div th:replace="header/headerMainTemplate.html :: header"></div>
-    <h1>Hello world!</h1>
+    <div class="container">
+        <div class="l-sidemenue"></div>
+        <div class="mainbody"></div>
+    </div>
+
+
+    <div th:replace="mainbody/apiDetailBody.html :: sideSheetExample"></div>
+
+
+
+
+
+
     <h1 th:replace="header/headerMainTemplate.html :: heade2"></h1>
 
-    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideSheet" aria-controls="sideSheet">
-        Open Side Sheet
-    </button>
-    
-    <!-- Side sheet content -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="sideSheet" aria-labelledby="sideSheetLabel">
-        <div class="offcanvas-header">
-            <h5 id="sideSheetLabel">Side Sheet Title</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <p>Here is the content of the side sheet!</p>
-            <p>More content can go here.</p>
-        </div>
-    </div>
-    
     <script src="/1rLF2DrdC9/thirdparty_1rLF2DrdC9/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
+
 </body>
+
 </html>

@@ -18,7 +18,7 @@ public class HomepageController {
     @GetMapping("/simuapi")
     public String viewHomePage(Model model) {
         model.addAttribute("allemplist", "Hellowworld");
-        return "index";
+        return "index.html";
     }
 
 }

@@ -1,0 +1,14 @@
+:root {
+    --header-backbgound-colour: #13111c;
+    --body-backbgound-colour: #000000;
+}
+
+body {
+    background-color: var(--body-backbgound-colour);
+}
+
+.header {
+    background-color: var(--header-backbgound-colour);
+    text-align: center;
+}
+* { margin: 0; padding: 0; }
